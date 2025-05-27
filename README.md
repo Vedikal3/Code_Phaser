@@ -1,32 +1,37 @@
-#CODE PHASER
-💻 Code Phaser – A Mini Compiler Project
-Code Phaser is a modular compiler prototype developed in Python that processes arithmetic expressions through all major compilation phases — from lexical analysis to final code generation. It supports syntax tree visualization, intermediate code generation (Three-Address Code), and outputs to multiple languages including Assembly, C, C++, and Python (in progress).
+# **💻 Code Phaser – A Mini Compiler Project**
+
+Code Phaser is a modular compiler prototype developed in Python that processes arithmetic expressions through all major compilation phases — from lexical analysis to final code generation. It supports syntax tree visualization, intermediate code generation (Three-Address Code), and outputs to multiple languages including Assembly, C, C++, and Python.
 
 🔧 Features
-Lexical Analysis using Python’s re module
+✅ Lexical Analysis using Python’s re module
 
-Syntax Analysis with visual trees via anytree
+✅ Syntax Analysis with tree visualization via anytree
 
-Semantic Analysis for identifier validation
+✅ Semantic Analysis for identifier and expression validation
 
-Three-Address Code (TAC) generation
+✅ Intermediate Code Generation (Three-Address Code - TAC)
 
-Assembly Code Output (completed)
+✅ Final Code Generation in:
 
-C, C++, Python Code Generation (in development)
+Assembly
 
-Modular Phase-Wise Architecture
+C
 
-Basic Code Optimization (in progress)
+C++
 
-👥 Team Contributions
-3-member collaboration with role-specific phase assignments
+Python
 
-Each member implements 2 phases and 1 output language
+✅ Modular, Phase-Wise Architecture
+
+✅ Basic Code Optimization (algebraic simplification)
 
 📁 Technologies Used
-Python 3, re, anytree
+Python 3
+
+re (Regex)
+
+anytree (for syntax/semantic tree visualization)
 
 Command-line interface
 
-Git for version control
+Git & GitHub for version control and collaboration
