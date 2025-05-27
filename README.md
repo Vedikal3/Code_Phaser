@@ -2,7 +2,8 @@
 
 Code Phaser is a modular compiler prototype developed in Python that processes arithmetic expressions through all major compilation phases — from lexical analysis to final code generation. It supports syntax tree visualization, intermediate code generation (Three-Address Code), and outputs to multiple languages including Assembly, C, C++, and Python.
 
-🔧 Features
+🔧 Features:
+
 ✅ Lexical Analysis using Python’s re module
 
 ✅ Syntax Analysis with tree visualization via anytree
@@ -12,20 +13,14 @@ Code Phaser is a modular compiler prototype developed in Python that processes a
 ✅ Intermediate Code Generation (Three-Address Code - TAC)
 
 ✅ Final Code Generation in:
-
-Assembly
-
-C
-
-C++
-
-Python
+Assembly, C, C++, Python
 
 ✅ Modular, Phase-Wise Architecture
 
 ✅ Basic Code Optimization (algebraic simplification)
 
-📁 Technologies Used
+📁 Technologies Used:
+
 Python 3
 
 re (Regex)
